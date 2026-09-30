@@ -155,12 +155,16 @@ button:disabled { opacity: .5; cursor: not-allowed; }
 .topbar {
   height: 58px;
   width: 100%;
-  background: var(--navy-dark);
-  display: flex; align-items: center; justify-content: flex-end;
-  padding: 0 28px; gap: 14px;
-  position: sticky; top: 0; z-index: 40;
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 28px;
+  gap: 14px;
+  position: sticky;
+  top: 0;
+  z-index: 40;
 }
-
 .top-search {
   width: 320px; height: 34px;
   border: 1px solid rgba(255,255,255,.15);
